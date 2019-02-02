@@ -16,7 +16,7 @@ app.initQgis()
 
 # Probably you want to tweak this
 project_path = 'single_pdf.qgs'
-template_path = 'test.qpt'
+template_path = 'single_pdf_a0_landscape.qpt'
 
 def create_layout(input_raster, input_json):
 
@@ -66,7 +66,7 @@ def create_layout(input_raster, input_json):
     composition.refreshItems()
     composition.exportAsPDF('export.pdf')
     QgsProject.instance().clear()
-    QgsApplication.exitQgis()
+    #QgsApplication.exitQgis()
 
 parser = argparse.ArgumentParser(description="Add Input Parameters for Creating the Layout")
 parser.add_argument("-ir", "--Input_Raster", required = True, help = "Raster File Path")

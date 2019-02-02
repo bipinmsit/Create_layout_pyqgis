@@ -1,7 +1,8 @@
 {       "title": "Aerial Map",
         "pro_name": "INFOSYS -PHASE-1 - SEZ Dev.",
         "cl_name": "Infosys Ltd.",
-        "surv_name": "ICON CADSOFT & SURVEYORS\n[INDIA] PRIVATE LIMITED",
+        "surv_name": "ICON CADSOFT & SURVEYORS [INDIA] PRIVATE LIMITED",
         "date": "29 Dec 2019",
-        "cl_image": "D:/1200px-Infosys_logo.svg.png",
-        "surv_image": "D:/MFAR.jpg"}
+        "cl_logo": "D:/1200px-Infosys_logo.svg.png",
+        "surv_logo": "D:/logo-iconcadd1.png",
+        "dimension": "(All Dimension is in meters)"}

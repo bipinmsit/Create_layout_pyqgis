@@ -18,4 +18,4 @@ ECHO OSGeo path is: %OSGEO4W_ROOT%
 ECHO Getting QGIS libs from: %QGIS%
 ECHO Python loaded from: %PYTHONHOME%
 
-C:\Python27\python\python.exe demo_1.py
+C:\Python27\python\python.exe demo.py -ir "C:\Users\user\Downloads\INFOSYS-PHASE-1-SEZ-Dev-Development-Area-mosaic-utm-clipped.tif" -ij "C:\Users\user\Desktop\GitHub\qgis-standalone-map-export\json_for_layout.json"
